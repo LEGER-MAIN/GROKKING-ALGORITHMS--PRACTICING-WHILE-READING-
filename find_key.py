@@ -1,7 +1,7 @@
 def countdown(i,key):
     print(i)
     if i == key:
-        return "La llave es: f{i}"
+        return print(f"La llave es: {i}")
     else:
         countdown(i-1, key)
 
